@@ -1,6 +1,6 @@
 
-const model1 = await tf.loadLayersModel('http://127.0.0.1:5500/reg/model.json');
-const model2 = await tf.loadLayersModel('http://127.0.0.1:5500/cls/model.json');
+const model1 = await tf.loadLayersModel('https://github.com/mysourcefile/mysourcefile.github.io/tree/main/cls/model.json');
+const model2 = await tf.loadLayersModel('https://github.com/mysourcefile/mysourcefile.github.io/tree/main/reg/model.json');
 let inputData1;
 let outputData1;
 let inputData2;
