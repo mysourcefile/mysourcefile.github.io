@@ -1,6 +1,6 @@
 
-const model1 = await tf.loadLayersModel('https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/cls/model.json');
-const model2 = await tf.loadLayersModel('https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/reg/model.json');
+const model1 = await tf.loadLayersModel('https://githubusercontent.com/mysourcefile/mysourcefile.github.io/cls/model.json');
+const model2 = await tf.loadLayersModel('https://githubusercontent.com/mysourcefile/mysourcefile.github.io/reg/model.json');
 let inputData1;
 let outputData1;
 let inputData2;
@@ -217,7 +217,7 @@ document.getElementById("reg_btn").onclick = () => {
         setTimeout(function () {
             video.remove(video);
             //newDivEl.classList.add('fade-in-box');
-            newDivEl.style.backgroundImage = 'url(./img/screen.png)';
+            newDivEl.style.backgroundImage = 'url(./img/screen.jpeg)';
             newDivEl.style.backgroundSize = 'cover';
             newDivEl.style.width = '1920px';
             newDivEl.style.height = '955px';
@@ -320,7 +320,7 @@ document.getElementById("cls_btn").onclick = () => {
         setTimeout(function () {
             video.remove(video);
             //newDivEl.classList.add('fade-in-box');
-            newDivEl.style.backgroundImage = 'url(./img/screen.png)';
+            newDivEl.style.backgroundImage = 'url(./img/screen.jpeg)';
             newDivEl.style.backgroundSize = 'cover';
             newDivEl.style.width = '1920px';
             newDivEl.style.height = '955px';
@@ -441,7 +441,7 @@ document.getElementById("all_btn").onclick = () => {
             setTimeout(function () {
                 video.remove(video);
                 //newDivEl.classList.add('fade-in-box');
-                newDivEl.style.backgroundImage = 'url(./img/screen.png)';
+                newDivEl.style.backgroundImage = 'url(./img/screen.jpeg)';
                 newDivEl.style.backgroundSize = 'cover';
                 newDivEl.style.width = '1920px';
                 newDivEl.style.height = '955px';
@@ -543,7 +543,7 @@ document.getElementById("all_btn").onclick = () => {
             setTimeout(function () {
                 video.remove(video);
                 //newDivEl.classList.add('fade-in-box');
-                newDivEl.style.backgroundImage = 'url(./img/screen.png)';
+                newDivEl.style.backgroundImage = 'url(./img/screen.jpeg)';
                 newDivEl.style.backgroundSize = 'cover';
                 newDivEl.style.width = '1920px';
                 newDivEl.style.height = '955px';
