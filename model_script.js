@@ -21,7 +21,7 @@ let total_people = [{ 2018: 0.01883919 }, { 2009: -0.85400814 }, { 2022: -1.4636
 // console.log(output[0])
 
 
-fetch("movie_top_300.json")
+fetch("https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/movie_top_300.json")
     .then(response => response.json())
     .then(data => {
         jsondata = data;
