@@ -305,7 +305,7 @@ document.getElementById("cls_btn").onclick = () => {
 
     const newVideoElement = document.createElement('VIDEO');
     newVideoElement.setAttribute('id', 'myVideo');
-    newVideoElement.setAttribute("src", './countdown.mov');
+    newVideoElement.setAttribute("src", './countdown.mp4');
     newVideoElement.setAttribute("width", "1980"); // 동영상 가로크기
     newVideoElement.setAttribute("height", "1100"); // 동영상 세로크기
     newVideoElement.setAttribute('autoplay', 'true');
@@ -426,7 +426,7 @@ document.getElementById("all_btn").onclick = () => {
 
         const newVideoElement = document.createElement('VIDEO');
         newVideoElement.setAttribute('id', 'myVideo');
-        newVideoElement.setAttribute("src", './countdown.mov');
+        newVideoElement.setAttribute("src", './countdown.mp4');
         newVideoElement.setAttribute("width", "1980"); // 동영상 가로크기
         newVideoElement.setAttribute("height", "1100"); // 동영상 세로크기
         newVideoElement.setAttribute('autoplay', 'true');
@@ -528,7 +528,7 @@ document.getElementById("all_btn").onclick = () => {
 
         const newVideoElement = document.createElement('VIDEO');
         newVideoElement.setAttribute('id', 'myVideo');
-        newVideoElement.setAttribute("src", './countdown.mov');
+        newVideoElement.setAttribute("src", './countdown.mp4');
         newVideoElement.setAttribute("width", "1980"); // 동영상 가로크기
         newVideoElement.setAttribute("height", "1100"); // 동영상 세로크기
         newVideoElement.setAttribute('autoplay', 'true');
