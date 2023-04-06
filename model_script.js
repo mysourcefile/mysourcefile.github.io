@@ -1,6 +1,6 @@
 
-const model1 = await tf.loadLayersModel('https://githubusercontent.com/mysourcefile/mysourcefile.github.io/cls/model.json');
-const model2 = await tf.loadLayersModel('https://githubusercontent.com/mysourcefile/mysourcefile.github.io/reg/model.json');
+const model1 = await tf.loadLayersModel('https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/reg/model.json');
+const model2 = await tf.loadLayersModel('https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/cls/model.json');
 let inputData1;
 let outputData1;
 let inputData2;
@@ -15,10 +15,10 @@ let jsondata;
 let total_people = [{ 2018: 0.01883919 }, { 2009: -0.85400814 }, { 2022: -1.463612 }, { 2017: 0.06880218 }, { 2013: -0.02458718 }, { 2015: 0.0319241 },
 { 2010: -0.96334467 }, { 2019: 0.16616104 }, { 2012: -0.28879513 }, { 2020: -2.22617752 }, { 2016: 0.02801201 }, { 2011: -0.79209665 }, { 2021: -2.2117635 }, { 2008: -0.9680759 }, { 2014: 0 }, { 2023: -1.463612 }]
 
-// inputData = tf.tensor2d([[2, 2, 0, -1.463612, 0, 17, 1, -0.308725, 0]]);
-// outputData = model.predict(inputData);
-// output = outputData.dataSync();
-// console.log(output[0])
+// inputData1 = tf.tensor2d([[2, 2, 0, -1.463612, 0, 17, 1, -0.308725, 0]]);
+// outputData1 = model1.predict(inputData1);
+// output1 = outputData1.dataSync();
+// console.log(output1[0])
 
 
 fetch("https://raw.githubusercontent.com/mysourcefile/mysourcefile.github.io/main/movie_top_300.json")
@@ -40,7 +40,6 @@ document.getElementsByTagName('form')[0].onsubmit = function () {
     let co;
     let season;
     let year2;
-
     actors_score = 0;
 
     if ((2020 <= year.value.slice(0, 4)) && (year.value.slice(0, 4) <= 2022)) {
